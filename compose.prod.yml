@@ -1,0 +1,20 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    volumes:
+      - app-data:/data
+    secrets:
+      - banner_msg
+
+volumes:
+  app-data:
+
+secrets:
+  banner_msg:
+    file: ./secrets/banner_msg.txt
