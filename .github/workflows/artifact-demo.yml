@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Crear archivo de evidencia
         run: |
@@ -17,7 +17,7 @@ jobs:
           echo "Fecha: $(date)" >> evidencia.txt
 
       - name: Subir artefacto
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: evidencia-workflow
           path: evidencia.txt
