@@ -1,7 +1,6 @@
 # Proyecto DevOps con Git y GitHub
-Aquí tienes el diseño definitivo y completo para el archivo `README.md` de tu repositorio `proyecto-devops-git`. Esta versión incluye de forma detallada el paso a paso tanto del ecosistema de **Docker (Semana 8)** como el flujo de trabajo de **Kubernetes (Semana 9)**, estructurado de manera profesional para la entrega en tu programa de formación.
 
-Puedes copiar este bloque de código directamente en tu archivo:
+bloque de código directamente en el archivo:
 
 ```markdown
 # Proyecto DevOps: Desarrollo, Contenedorización y Orquestación
